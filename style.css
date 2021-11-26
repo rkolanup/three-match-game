@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(images/underWater.jpg),linear-gradient(#ecfbfd, #307a87, #043038);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scoreBoard{
+    text-align: center;
+    box-shadow: 2px 5px 5px 6px rgb(2 104 122 / 22%), 0 1px 0 #387f8c1f;
+    width: 25%;
+}
+.scoreInfo{
+    font-family: 'Trebuchet MS', sans-serif;;
+    height: 560px;
+    color: #307a87;
+    background-color: #daf5f870;
+    text-align: center;   
+}
+.scoreInfo h2{
+    padding-top: 50px;
+}
+.gameArea{
+    width: 75%;
+}
+/* Grid with 8X8 squares and 70px each sq with */
+.grid{
+    height: 560px; /* 70X8 */
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #daf5f870;
+    box-shadow: 0px 6px 5px 6px rgb(0 0 0 / 10%), 0 1px 0 #fff0;
+}
+.grid div{
+    width: 68px;
+    height: 68px;
+    border: 1px #ffffff5c solid;
+}
+
